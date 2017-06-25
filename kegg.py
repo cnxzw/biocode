@@ -60,4 +60,18 @@ for ke,val in hsa_kegg.items():
 
 fh.close()
 
+pathNum = 0
+allgene = []
+
+with open(args[2],'r') as fr:
+    for line in fr:
+        lst = line.strip().split('\t')
+        if len(lst) > 3:
+            pathNum += 1
+            geneList = lst[-2].split(';')
+            allgene.extend(geneList)
+
+    print "The number of pathways is %d" % (pathNum)
+    print "The num of gene is %d" % len(set(allgene))
+
 
