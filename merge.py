@@ -6,6 +6,13 @@
 @time:2017/6/15 23:16
 """
 
+"""
+生信编程第4题
+将多个表达谱合并成一个表达矩阵
+数据来源：NCBI/GEO
+ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE48nnn/GSE48213/suppl/GSE48213_RAW.tar
+"""
+
 import glob
 from collections import OrderedDict
 import sys

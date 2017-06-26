@@ -7,7 +7,10 @@
 """
 
 """
-用于计算CCDS_current.txt中外显子累计长度
+生信编程第1题
+计算CCDS_current.txt中外显子累计长度
+数据来源：NCBI
+ftp://ftp.ncbi.nlm.nih.gov/pub/CCDS/current_human/CCDS.current.txt
 """
 
 import sys
@@ -28,7 +31,7 @@ with open(args[1],'r') as f:
             continue
 
         #exons = lst[-2].lstrip('[').rstrip(']').split(', ')
-        lst[-2] = re.sub('\[|\]','',lst[-2])
+        lst[-2] = re.sub('\[|\]','',lst[-2])  #去掉中括号
         exons = lst[-2].split(', ')
         chr = lst[0]
 

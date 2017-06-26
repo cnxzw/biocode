@@ -5,6 +5,14 @@
 @file:gene_model.py
 @time:2017/6/21 11:10
 """
+
+"""
+生信编程第5题
+根据GTF画基因的多个转录本结构
+数据来源：ensmbl  gff3格式
+ftp://ftp.ensembl.org/pub/release-89/gff3/homo_sapiens/Homo_sapiens.GRCh38.89.gff3.gz
+"""
+
 import sys
 from collections import OrderedDict
 

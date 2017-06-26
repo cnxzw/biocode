@@ -7,11 +7,15 @@
 """
 
 """
-染色体上基因分布
-基因长度
-基因上转录本分布
-转录本上外显子分布
-外显子位置信息
+生信编程第3题
+数据来源：ensembl  gtf格式
+ftp://ftp.ensembl.org/pub/release-87/gtf/homo_sapiens/Homo_sapiens.GRCh38.87.chr.gtf.gz
+统计信息：
+1染色体上基因分布
+2基因长度
+3基因上转录本分布
+4转录本上外显子分布
+5外显子位置信息
 """
 
 
