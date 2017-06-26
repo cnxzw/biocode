@@ -7,7 +7,10 @@
 """
 
 """
+生信编程第6题
 下载最新版KEGG并且解析好
+数据来源：KEGG keg格式
+http://www.genome.jp/kegg-bin/download_htext?htext=ko00001.keg&format=htext&filedir=
 """
 
 import sys

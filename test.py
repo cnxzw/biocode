@@ -6,6 +6,14 @@
 @time:2017/6/14 18:59
 """
 
+"""
+生信编程第2题
+统计hg19基因组每条染色体长度、N、GC含量
+并没有使用buffer，而是使用readline减少内存的使用
+数据来源：UCSC fa格式
+ftp://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz
+"""
+
 import time
 import sys
 import re

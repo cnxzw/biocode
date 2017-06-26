@@ -2,6 +2,13 @@ import pysam
 import sys
 import time
 
+"""
+生信编程第2题
+使用pysam模块统计hg19基因组每条染色体长度、N、GC含量
+数据来源：UCSC  fa格式
+ftp://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/chromFa.tar.gz
+"""
+
 start = time.clock()
 args = sys.argv
 bases = ['A','G','T','C','N']
